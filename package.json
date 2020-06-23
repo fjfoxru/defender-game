@@ -1,0 +1,33 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fjfoxru/defender-game.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "fjfox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fjfoxru/defender-game/issues"
+  },
+  "homepage": "https://github.com/fjfoxru/defender-game#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "eslint": "^7.3.1"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5"
+  }
+}
